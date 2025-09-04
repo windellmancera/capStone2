@@ -1,0 +1,293 @@
+/* Global Dark Mode Styles for Member Pages */
+
+/* Dark Mode Base Styles */
+.dark-mode {
+    background-color: #1f2937 !important;
+    color: #f9fafb !important;
+}
+
+/* Card and Container Backgrounds */
+.dark-mode .bg-white {
+    background-color: #4b5563 !important;
+    border-color: #6b7280 !important;
+    color: #f9fafb !important;
+}
+
+.dark-mode .bg-gray-50 {
+    background-color: #6b7280 !important;
+    border-color: #9ca3af !important;
+}
+
+.dark-mode .bg-gray-100 {
+    background-color: #9ca3af !important;
+}
+
+.dark-mode .bg-gray-200 {
+    background-color: #6b7280 !important;
+}
+
+/* Text Colors */
+.dark-mode .text-gray-800 {
+    color: #f9fafb !important;
+}
+
+.dark-mode .text-gray-700 {
+    color: #e5e7eb !important;
+}
+
+.dark-mode .text-gray-600 {
+    color: #d1d5db !important;
+}
+
+.dark-mode .text-gray-500 {
+    color: #9ca3af !important;
+}
+
+.dark-mode .text-gray-400 {
+    color: #9ca3af !important;
+}
+
+.dark-mode .text-gray-300 {
+    color: #d1d5db !important;
+}
+
+.dark-mode .text-gray-200 {
+    color: #e5e7eb !important;
+}
+
+/* Border Colors */
+.dark-mode .border-gray-200 {
+    border-color: #6b7280 !important;
+}
+
+.dark-mode .border-gray-300 {
+    border-color: #9ca3af !important;
+}
+
+.dark-mode .border-gray-400 {
+    border-color: #9ca3af !important;
+}
+
+/* Form Elements */
+.dark-mode input[readonly] {
+    background-color: #6b7280 !important;
+    border-color: #9ca3af !important;
+    color: #f9fafb !important;
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="email"],
+.dark-mode input[type="password"],
+.dark-mode input[type="number"],
+.dark-mode input[type="date"],
+.dark-mode select,
+.dark-mode textarea {
+    background-color: #6b7280 !important;
+    border-color: #9ca3af !important;
+    color: #f9fafb !important;
+}
+
+.dark-mode input:focus,
+.dark-mode select:focus,
+.dark-mode textarea:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Table Styles */
+.dark-mode table {
+    background-color: #4b5563 !important;
+}
+
+.dark-mode th {
+    background-color: #6b7280 !important;
+    color: #f9fafb !important;
+}
+
+.dark-mode td {
+    background-color: #4b5563 !important;
+    color: #f9fafb !important;
+}
+
+.dark-mode tr:hover td {
+    background-color: #6b7280 !important;
+}
+
+/* Button Styles */
+.dark-mode .bg-red-600 {
+    background-color: #dc2626 !important;
+}
+
+.dark-mode .bg-red-700 {
+    background-color: #b91c1c !important;
+}
+
+.dark-mode .bg-blue-600 {
+    background-color: #2563eb !important;
+}
+
+.dark-mode .bg-blue-700 {
+    background-color: #1d4ed8 !important;
+}
+
+.dark-mode .bg-green-600 {
+    background-color: #059669 !important;
+}
+
+.dark-mode .bg-green-700 {
+    background-color: #047857 !important;
+}
+
+.dark-mode .bg-purple-600 {
+    background-color: #7c3aed !important;
+}
+
+.dark-mode .bg-purple-700 {
+    background-color: #6d28d9 !important;
+}
+
+/* Gradient Backgrounds */
+.dark-mode .bg-gradient-to-r.from-gray-50.to-gray-100 {
+    background: linear-gradient(to right, #6b7280, #9ca3af) !important;
+}
+
+.dark-mode .bg-gradient-to-r.from-red-600.to-red-700 {
+    background: linear-gradient(to right, #dc2626, #b91c1c) !important;
+}
+
+/* Shadow Effects */
+.dark-mode .settings-card,
+.dark-mode .bg-white {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode .bg-gray-50 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Hover Effects */
+.dark-mode button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+.dark-mode a:hover {
+    background-color: #7c3aed !important;
+    color: #ffffff !important;
+}
+
+/* Status Badges */
+.dark-mode .bg-green-100 {
+    background-color: #065f46 !important;
+    color: #d1fae5 !important;
+}
+
+.dark-mode .bg-blue-100 {
+    background-color: #1e40af !important;
+    color: #dbeafe !important;
+}
+
+.dark-mode .bg-yellow-100 {
+    background-color: #92400e !important;
+    color: #fef3c7 !important;
+}
+
+.dark-mode .bg-red-100 {
+    background-color: #991b1b !important;
+    color: #fee2e2 !important;
+}
+
+.dark-mode .bg-purple-100 {
+    background-color: #581c87 !important;
+    color: #f3e8ff !important;
+}
+
+/* Modal and Overlay Styles */
+.dark-mode .modal,
+.dark-mode .overlay {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.dark-mode .modal-content {
+    background-color: #4b5563 !important;
+    border-color: #6b7280 !important;
+}
+
+/* Sidebar Specific (if needed) */
+.dark-mode aside {
+    background: linear-gradient(to bottom, #111827, #7f1d1d) !important;
+}
+
+/* Smooth Transitions */
+body, .bg-white, .bg-gray-50, .bg-gray-100, .bg-gray-200,
+.text-gray-800, .text-gray-700, .text-gray-600, .text-gray-500,
+.text-gray-400, .text-gray-300, .text-gray-200,
+.border-gray-200, .border-gray-300, .border-gray-400,
+input, select, textarea, button, a, th, td {
+    transition: all 0.3s ease;
+}
+
+/* Homepage Specific Dark Mode Styles - White Text */
+.dark-mode .homepage .text-gray-800,
+.dark-mode .homepage .text-gray-700,
+.dark-mode .homepage .text-gray-600,
+.dark-mode .homepage .text-gray-500,
+.dark-mode .homepage .text-gray-400,
+.dark-mode .homepage .text-gray-300,
+.dark-mode .homepage .text-gray-200,
+.dark-mode .homepage h1,
+.dark-mode .homepage h2,
+.dark-mode .homepage h3,
+.dark-mode .homepage h4,
+.dark-mode .homepage h5,
+.dark-mode .homepage h6,
+.dark-mode .homepage p,
+.dark-mode .homepage span,
+.dark-mode .homepage div {
+    color: #ffffff !important;
+}
+
+/* Homepage Cards and Containers with White Text */
+.dark-mode .homepage .bg-white,
+.dark-mode .homepage .bg-gray-50,
+.dark-mode .homepage .bg-gray-100,
+.dark-mode .homepage .bg-gray-200,
+.dark-mode .homepage .card,
+.dark-mode .homepage .dashboard-card,
+.dark-mode .homepage .stats-card,
+.dark-mode .homepage .info-card {
+    color: #ffffff !important;
+}
+
+/* Homepage Specific Elements */
+.dark-mode .homepage .welcome-text,
+.dark-mode .homepage .stats-value,
+.dark-mode .homepage .card-title,
+.dark-mode .homepage .card-description,
+.dark-mode .homepage .quick-actions-text,
+.dark-mode .homepage .recent-activity-text {
+    color: #ffffff !important;
+}
+
+/* Additional Homepage Text Elements */
+.dark-mode .homepage .text-sm,
+.dark-mode .homepage .text-base,
+.dark-mode .homepage .text-lg,
+.dark-mode .homepage .text-xl,
+.dark-mode .homepage .text-2xl,
+.dark-mode .homepage .text-3xl {
+    color: #ffffff !important;
+}
+
+/* Homepage Links and Buttons Text */
+.dark-mode .homepage a:not(.btn):not(.button),
+.dark-mode .homepage button:not(.btn):not(.button) {
+    color: #ffffff !important;
+}
+
+/* Homepage Status and Badge Text */
+.dark-mode .homepage .status-text,
+.dark-mode .homepage .badge-text,
+.dark-mode .homepage .label-text {
+    color: #ffffff !important;
+}
